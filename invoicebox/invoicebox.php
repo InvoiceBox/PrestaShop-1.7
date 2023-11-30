@@ -15,8 +15,11 @@
 		public $itransfer_participant_ident;
 		public $invoicebox_api_key;
 		public $itransfer_testmode;
-		
-		
+		/**
+		 * @var string
+		 */
+
+
 		public function __construct()
 		{
 			$this->name = 'invoicebox';
